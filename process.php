@@ -12,6 +12,7 @@ if ($username === $correct_username && $password === $correct_password) {
     header('Location: welcome.php');
     exit();
 } else {
-    echo "Login failed！<a href='login.html'>Please try again.</a>";
+    echo "登录失败，请检查用户名或密码。<a href='login.php'>返回</a>";
 }
 ?>
+
